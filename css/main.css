@@ -53,3 +53,34 @@ a {
 .header .nav a {
     color: #fff;
 }
+.welcome{
+    height: 700px;
+    background-image: url(../image/header-bg.jpg);
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center center;
+    background-size: cover;
+}
+.welcome .wel{
+    font-size: 30px;
+}
+.welcome .mm{
+    font-size: 100px;
+}
+.sec2{
+    text-align: center;
+    color:#fff;
+}
+.sec2 a{
+    color:#fff;
+    background-color: #ffc800;
+     border-radius: 5px;
+     padding: 20px 30px ;
+}
+
+.mm {
+    margin-top: 30px;
+}
+.more{
+    margin-top: 50px;
+}
