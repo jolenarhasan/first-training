@@ -1,0 +1,55 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 5000px;
+    ;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.header {
+    background-color:#212529;
+    position: sticky;
+    top: 0;
+
+    padding: 20px 0;
+
+}
+
+.container {
+    margin: auto;
+    width: 80%;
+
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+
+.logo img {
+    width: 180px;
+    display: block;
+}
+
+.header .nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.header .nav a {
+    color: #fff;
+}
